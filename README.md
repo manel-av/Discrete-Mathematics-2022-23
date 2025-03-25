@@ -1,19 +1,37 @@
 # Discrete Mathematics
 
-## Course Description
-
-This subject covered mathematical concepts that are fundamental to computing, such as logic, set theory, combinatorics, and graph theory.
+## About This Course
+This course taught me how to model and solve real-world problems using discrete structures. Through programming exercises in Python, I explored graph theory, probability, and algorithm design.
 
 ## Practical Work
 
-The course was structured around five seminars, each focusing on different problem-solving techniques:
+### Seminar 1: Probability
+I implemented probability simulations for test exams:
+- Calculated probabilities of passing when guessing answers
+- Built a Monte Carlo simulator running 100,000 test cases
+- Extended it to handle partial knowledge (discarding wrong options)
 
-- **Seminar 1: Probability Analysis** – We calculated probabilities of answering multiple-choice questions correctly, both manually and through simulation using Python. We explored the impact of guessing on exam performance.
+### Seminar 2: Graph Fundamentals
+I modeled social networks as graphs:
+- Created WhatsApp-style mutual friendship graphs (undirected)
+- Implemented Instagram-style follower graphs (directed)
+- Programmed the Havel-Hakimi algorithm to validate degree sequences
 
-- **Seminar 2: Graph Theory Foundations** – We modeled social networks and messaging apps using graph structures. We implemented graph representations and explored connectivity and communication constraints.
+### Seminar 3: Graph Traversal
+I simulated early web crawling:
+- Built a graph representing linked webpages
+- Implemented BFS and DFS to "discover" the entire graph
+- Compared traversal orders between algorithms
 
-- **Seminar 3: Web Crawler Simulation** – We designed an algorithm to traverse a network of interconnected web pages, simulating how search engines index the internet using BFS and DFS.
+### Seminar 4: Optimal Paths
+I solved pathfinding problems in Westeros:
+- Added edge weights to graph structures
+- Implemented Dijkstra's algorithm to escape Winterfell
+- Extended it to reconstruct optimal escape routes
+- Optional: Created a Floyd-Warshall distance matrix
 
-- **Seminar 4: Shortest Path Algorithms** – We worked with weighted graphs to find the shortest paths between nodes, applying Dijkstra’s algorithm to solve real-world navigation problems.
-
-- **Seminar 5: Eulerian and Hamiltonian Graphs** – We analyzed networks to determine whether they contained Eulerian or Hamiltonian paths, applying Hierholzer’s algorithm to find Eulerian circuits.
+### Seminar 5: Eulerian & Hamiltonian Paths
+I planned messenger routes in Middle-earth:
+- Manually verified Eulerian circuit conditions
+- Implemented Hierholzer's algorithm
+- Analyzed Hamiltonian paths with blocked routes
